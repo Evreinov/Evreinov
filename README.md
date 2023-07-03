@@ -1,4 +1,12 @@
-### Hi there 👋
+[![Typing SVG](http://readme-typing-svg.herokuapp.com?font=Source+Code+Pro+&pause=1000&color=F7F7F7&width=435&lines=Hi+there%2C++Evreinov+Dmitry+%F0%9F%91%8B)](https://github.com/evreinov)
+
+## 🛠
+
+![csharp](https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white)
+![mssql](https://img.shields.io/badge/mssql-%2300f.svg?&style=for-the-badge&logo=mssql&logoColor=white)
+![postgres](https://img.shields.io/badge/postgres-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white) 
+![markdown](https://img.shields.io/badge/markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white)
+![git](https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white) 
 
 <!--
 **Evreinov/Evreinov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
