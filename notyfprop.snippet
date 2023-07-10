@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>notyfprop</Title>
+			<Shortcut>notyfprop</Shortcut>
+			<Description>Code snippet for property implement the INotifyPropertyChanged.</Description>
+			<Author>Evreinov Dmitriy</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>type</ID>
+					<ToolTip>Property type</ToolTip>
+					<Default>T</Default>
+				</Literal>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Property and field name</ToolTip>
+					<Default>N</Default>
+				</Literal>
+				<Literal>
+					<ID>description</ID>
+					<ToolTip>The description this property</ToolTip>
+					<Default>DESCRIPTION</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[#region $name$ : $type$ - $description$
+			
+	/// <summary>$description$</summary>
+	private $type$ _$name$;
+
+	/// <summary>$description$</summary>
+	public $type$ $name$
+	{
+		get => _$name$;
+		set => Set(ref _$name$, value);
+	}
+
+	#endregion
+	$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
